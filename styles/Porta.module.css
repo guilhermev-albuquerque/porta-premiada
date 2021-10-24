@@ -10,6 +10,7 @@
 
 .estrutura {
   display: flex;
+  flex-direction: column-reverse;
   flex-grow: 1;
   border: 5px solid brown;
   border-bottom: none;
@@ -20,8 +21,8 @@
 .porta {
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-grow: 1;
+  align-items: center;
   background-color: chocolate;
   padding: 15px;
 }
@@ -33,7 +34,6 @@
 .macaneta {
   position: absolute;
   top: calc(0.45 * var(--altura-porta));
-  display: flex;
   align-self: flex-start;
   height: 20px;
   width: 20px;
