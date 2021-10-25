@@ -40,7 +40,7 @@ export default function Home() {
       <div className={styles.portas}>
         {valido ?
           renderizarPortas():
-          <h1>Calores inválidos</h1>
+          <h1>Valores inválidos</h1>
         }
       </div>
       <div className={styles.botoes}>
